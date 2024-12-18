@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition effect */
+  padding: 8px 16px; /* Add padding */
+  border-radius: 20px; /* Add rounded corners */
+  border: 2px solid transparent; /* Add border */
+}
+
+nav a:hover {
+  color:black; /* Change text color on hover */
+  background-color: aliceblue; /* Change background color on hover */
+  border-color: whitesmoke; /* Change border color on hover */
+}
+
+.cover-image {
+  /* Your existing cover image styles */
+  background-image: url('img1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px; /* Adjust height as needed */
+}
+.cover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+/* CSS for footer with white text */
+.white-text-footer {
+  background-color: #f0f0f0; /* Background color of the footer */
+  color: #fff; /* Text color */
+  padding: 20px;
+  text-align: center;
+}
